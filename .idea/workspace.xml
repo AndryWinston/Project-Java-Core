@@ -4,37 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44dda0f-0bf6-4986-925f-a24271c5b791" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Island.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Buffalo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Caterpillar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Deer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Goat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Pig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Plants/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Predators/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Predators/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Predators/Fox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Predators/Python.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animals/Predators/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/AnimalActions/AnimalMotionVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/AnimalActions/AnimalReprodaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/AnimalType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/IslandCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="d44dda0f-0bf6-4986-925f-a24271c5b791" name="Changes" comment="Rebuild project">
+      <change beforePath="$PROJECT_DIR$/src/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674748710505</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rebuild project">
+      <created>1674749613578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674749613578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rebuild project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild project" />
   </component>
 </project>
