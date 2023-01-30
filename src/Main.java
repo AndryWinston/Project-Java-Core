@@ -12,7 +12,7 @@ public class Main {
         int solution = scanner.nextInt();
         while (true) {
             if (solution == 1) {
-                IslandCreator islandCreator = new IslandCreator();
+                //IslandCreator = new IslandCreator();
                 //islandCreator.run();
             } else if (solution == 2) {
                 System.out.println("Thanks for game! :D");

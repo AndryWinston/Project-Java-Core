@@ -1,7 +1,6 @@
 package Config;
 
 import Animals.Animal;
-
 import Animals.Herbivores.*;
 import Animals.Predators.*;
 

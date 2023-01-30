@@ -15,5 +15,11 @@ public enum AnimalType {
     PIG,
     BUFFALO,
     DUCK,
-    CATERPILLAR
+    CATERPILLAR;
+
+    private String TYPE;
+
+    public String getTYPE() {
+        return TYPE;
+    }
 }

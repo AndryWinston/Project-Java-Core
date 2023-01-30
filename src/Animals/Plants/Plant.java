@@ -1,18 +1,10 @@
 package Animals.Plants;
 
-import java.util.ArrayList;
-import java.util.List;
 
-public class Plant {
+import Config.AnimalActions.Eateble;
 
-    public static List<Plant> plants = new ArrayList<>();
-
-    public Plant() {
-    }
-
-    public static void grow() {
-        for (int p = 0; p < 200; p++) {
-            Plant pl = new Plant();
-        }
+public class Plant implements Eateble {
+    public static void iMHire(){
+        System.out.println("Hi");
     }
 }

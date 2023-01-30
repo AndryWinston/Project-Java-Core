@@ -1,10 +1,13 @@
 package Config.AnimalActions;
 
 import Animals.Animal;
+import Config.AnimalType;
 
-public class AnimalReprodaction {
-    public static Object reprodaction(Animal a1, Animal a2) {
+public interface Reprodactionable {
+    static Object reprodaction(AnimalType a1, AnimalType a2) {
         System.out.println(a1 + "спарился с " + a2);
+
+
         return null;
     }
 }

@@ -5,6 +5,7 @@ package Config;
 public class IslandCreator {
 
     public static Object run() {
+        IslandArray();
         return null;
     }
     public static void IslandArray(){
@@ -12,6 +13,8 @@ public class IslandCreator {
         for (int i = 0; i < island.length; i++) {
             for (int j = 0; j < island[0].length; j++) {
                 Cell cell = new Cell();
+                cell.setX(i);
+                cell.setY(j);
             }
         }
     }
