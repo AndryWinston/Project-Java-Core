@@ -4,36 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44dda0f-0bf6-4986-925f-a24271c5b791" name="Changes" comment="Rebuild project">
-      <change afterPath="$PROJECT_DIR$/src/Config/AnimalActions/Eat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/AnimalActions/Eateble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/AnimalActions/Movebale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d44dda0f-0bf6-4986-925f-a24271c5b791" name="Changes" comment="Add interface's">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Buffalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Buffalo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Caterpillar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Caterpillar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Deer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Deer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Goat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Pig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Rabbit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Plants/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Plants/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Bear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Python.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Python.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/AnimalMotionVector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/AnimalReprodaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalActions/Reprodactionable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/Movebale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalActions/Movebale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/Reprodactionable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalActions/Reprodactionable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Config/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Config/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Config/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Config/IslandCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/IslandCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +45,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
@@ -106,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674749767063</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add interface's">
+      <created>1675088313553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675088313553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rebuild project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebuild project" />
+    <MESSAGE value="Add interface's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add interface's" />
   </component>
 </project>
