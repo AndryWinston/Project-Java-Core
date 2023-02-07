@@ -10,8 +10,8 @@ import static Config.AnimalType.*;
 
 public class Cell {
 
-    private static final List<Animal> animals = new ArrayList<>();
-    private static final List<Plant> plants = new ArrayList<>();
+    private final List<Animal> animals = new ArrayList<>();
+    private final List<Plant> plants = new ArrayList<>();
     private int x;
     private int y;
 
@@ -45,32 +45,10 @@ public class Cell {
         return animals;
     }
 
-    public static void makePlants() {
-        for (int p = 0; p < 200; p++) {
-            plants.add(new Plant());
-        }
+    public List<Plant> getPlants() {
+        return plants;
     }
 
-    public static void makeAnimals(){
-        AnimalFactory animalFactory = new AnimalFactory();
-        for (int i = 0; i < 2; i++) {
-            animals.add(animalFactory.createAnimal(WOLF));
-            animals.add(animalFactory.createAnimal(PYTHON));
-            animals.add(animalFactory.createAnimal(FOX));
-            animals.add(animalFactory.createAnimal(BEAR));
-            animals.add(animalFactory.createAnimal(EAGLE));
-            animals.add(animalFactory.createAnimal(HORSE));
-            animals.add(animalFactory.createAnimal(DEER));
-            animals.add(animalFactory.createAnimal(RABBIT));
-            animals.add(animalFactory.createAnimal(MOUSE));
-            animals.add(animalFactory.createAnimal(GOAT));
-            animals.add(animalFactory.createAnimal(SHEEP));
-            animals.add(animalFactory.createAnimal(PIG));
-            animals.add(animalFactory.createAnimal(BUFFALO));
-            animals.add(animalFactory.createAnimal(DUCK));
-            animals.add(animalFactory.createAnimal(CATERPILLAR));
-        }
-    }
     public static void animalHashMap(HashMap map){
         map.put(WOLF, 30);
         map.put(PYTHON, 30);

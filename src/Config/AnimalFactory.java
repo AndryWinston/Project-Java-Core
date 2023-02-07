@@ -5,55 +5,26 @@ import Animals.Herbivores.*;
 import Animals.Predators.*;
 
 public class AnimalFactory {
-    public Animal createAnimal(AnimalType type) {
-        Animal animal = null;
-        switch (type) {
-            case WOLF:
-                animal = new Wolf();
-                break;
-            case PYTHON:
-                animal = new Python();
-                break;
-            case FOX:
-                animal = new Fox();
-                break;
-            case BEAR:
-                animal = new Bear();
-                break;
-            case EAGLE:
-                animal = new Eagle();
-                break;
-            case HORSE:
-                animal = new Horse();
-                break;
-            case DEER:
-                animal = new Deer();
-                break;
-            case RABBIT:
-                animal = new Rabbit();
-                break;
-            case MOUSE:
-                animal = new Mouse();
-                break;
-            case GOAT:
-                animal = new Goat();
-                break;
-            case SHEEP:
-                animal = new Sheep();
-                break;
-            case PIG:
-                animal = new Pig();
-                break;
-            case BUFFALO:
-                animal = new Buffalo();
-                break;
-            case DUCK:
-                animal = new Duck();
-                break;
-            case CATERPILLAR:
-                animal = new Caterpillar();
-                break;
-        }
+    public Animal createAnimal(AnimalType type, Cell cell) {
+        Animal animal = switch (type) {
+            case WOLF -> new Wolf();
+            case PYTHON -> new Python();
+            case FOX -> new Fox();
+            case BEAR -> new Bear();
+            case EAGLE -> new Eagle();
+            case HORSE -> new Horse();
+            case DEER -> new Deer();
+            case RABBIT -> new Rabbit();
+            case MOUSE -> new Mouse();
+            case GOAT -> new Goat();
+            case SHEEP -> new Sheep();
+            case PIG -> new Pig();
+            case BUFFALO -> new Buffalo();
+            case DUCK -> new Duck();
+            case CATERPILLAR -> new Caterpillar();
+        };
+        animal.setType(type);
+        animal.setCell(cell);
         return animal;
     }
 
