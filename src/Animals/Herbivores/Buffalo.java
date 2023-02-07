@@ -9,7 +9,4 @@ public class Buffalo extends Animal {
     int maximumNumberOfAnimal = 10;
     int speed = 3;
     int kiloOfFood = 100;
-    double probabilyti;
-
-
 }

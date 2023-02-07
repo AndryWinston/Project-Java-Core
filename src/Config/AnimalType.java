@@ -26,4 +26,6 @@ public enum AnimalType {
     AnimalType(String type) {
         this.type = type;
     }
+
+
 }

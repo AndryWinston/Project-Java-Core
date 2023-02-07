@@ -4,10 +4,10 @@ package Config;
 
 public class IslandCreator {
 
-//    public static Object run() {
-//        IslandArray();
-//        return null;
-//    }
+    public static Object run() {
+        IslandArray();
+        return null;
+    }
     public static void IslandArray(){
         Cell[][] island = new Cell[10][10];
         for (int i = 0; i < island.length; i++) {
