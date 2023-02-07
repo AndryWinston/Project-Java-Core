@@ -17,18 +17,11 @@
       <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Pig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Rabbit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals/Herbivores/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Herbivores/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Plants/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Plants/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Bear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Eagle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Fox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Python.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Python.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals/Predators/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Predators/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/Eat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/Eateble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/Movebale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/Reprodactionable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/IslandCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/IslandCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

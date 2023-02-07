@@ -19,12 +19,47 @@ public class Wolf extends Animal {
         switch (food.getType()) {
             case DEER:
                 if (rand < 0.15) {
-                    System.out.println("Волк съел оленя");
+                    System.out.println("The Wolf ate the Deer");
                 }
                 break;
             case HORSE:
                 if (rand < 0.1) {
-                    System.out.println("Волк съел лошадь");
+                    System.out.println("The Wolf ate the Horse");
+                }
+                break;
+            case RABBIT:
+                if (rand < 0.6) {
+                    System.out.println("The Wolf ate the Rabbit");
+                }
+                break;
+            case MOUSE:
+                if (rand < 0.8) {
+                    System.out.println("The Wolf ate the Mouse");
+                }
+                break;
+            case GOAT:
+                if (rand < 0.6) {
+                    System.out.println("The Wolf ate the Goat");
+                }
+                break;
+            case SHEEP:
+                if (rand < 0.7) {
+                    System.out.println("The Wolf ate the Sheep");
+                }
+                break;
+            case PIG:
+                if (rand < 0.15) {
+                    System.out.println("The Wolf ate the Pig");
+                }
+                break;
+            case BUFFALO:
+                if (rand < 0.1) {
+                    System.out.println("The Wolf ate the Buffalo");
+                }
+                break;
+            case DUCK:
+                if (rand < 0.4) {
+                    System.out.println("The Wolf ate the Duck");
                 }
                 break;
             default:

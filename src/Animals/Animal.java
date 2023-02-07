@@ -34,12 +34,6 @@ public abstract class Animal {
    }
 
    public void eat(Animal p, Animal food, List<Animal> animals){
-      double random = ThreadLocalRandom.current().nextDouble(0.0,1.0);
-//      if () {
-//
-//      }
-
-
    }
    public void moveVector(Animal a) {
    }
