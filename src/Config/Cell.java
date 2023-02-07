@@ -15,7 +15,6 @@ public class Cell {
     private int x;
     private int y;
 
-    HashMap<AnimalType,Integer> hashMap = new HashMap<AnimalType, Integer>();
 
     public Cell() {
     }

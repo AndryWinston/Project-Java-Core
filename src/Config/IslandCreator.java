@@ -15,8 +15,8 @@ public class IslandCreator {
                 Cell cell = new Cell();
                 cell.setX(i);
                 cell.setY(j);
-                Cell.makeAnimals();
                 Cell.makePlants();
+                Cell.makeAnimals();
             }
         }
     }
