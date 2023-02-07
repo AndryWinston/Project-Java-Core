@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44dda0f-0bf6-4986-925f-a24271c5b791" name="Changes" comment="Add interface's">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/Movebale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalActions/Movebale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalActions/Reprodactionable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalActions/Reprodactionable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/AnimalType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/IslandCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/IslandCreator.java" afterDir="false" />
-    </list>
+    <list default="true" id="d44dda0f-0bf6-4986-925f-a24271c5b791" name="Changes" comment="Add make animals/plants" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,14 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -95,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675088313553</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add make animals/plants">
+      <created>1675101809235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675101809235</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rebuild project" />
     <MESSAGE value="Add interface's" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add interface's" />
+    <MESSAGE value="Add make animals/plants" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add make animals/plants" />
   </component>
 </project>
