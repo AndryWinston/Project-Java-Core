@@ -18,22 +18,17 @@ public class Eagle extends Animal {
         switch (food.getType()) {
             case FOX:
                 if (rand < 0.1) {
-                    System.out.println("The Eagle ate the Fox");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
-            case RABBIT:
+            case RABBIT, MOUSE:
                 if (rand < 0.9) {
-                    System.out.println("The Eagle ate the Rabbit");
-                }
-                break;
-            case MOUSE:
-                if (rand < 0.9) {
-                    System.out.println("The Eagle ate the Mouse");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case DUCK:
                 if (rand < 0.8) {
-                    System.out.println("The Eagle ate the Duck");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             default:

@@ -1,6 +1,7 @@
 package Animals.Predators;
 
 import Animals.Animal;
+import Config.Cell;
 
 import java.util.List;
 import java.util.Random;
@@ -18,22 +19,22 @@ public class Python extends Animal {
         switch (food.getType()) {
             case FOX:
                 if (rand < 0.15) {
-                    System.out.println("The Python ate the Fox");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case RABBIT:
                 if (rand < 0.2) {
-                    System.out.println("The Python ate the Rabbit");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case MOUSE:
                 if (rand < 0.4) {
-                    System.out.println("The Python ate the Mouse");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case DUCK:
                 if (rand < 0.1) {
-                    System.out.println("The Python ate the Duck");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             default:

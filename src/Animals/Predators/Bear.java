@@ -15,54 +15,39 @@ public class Bear extends Animal  {
     public void eat(Animal p, Animal food, List<Animal> animals) {
         double rand = new Random().nextDouble();
         switch (food.getType()) {
-            case PYTHON:
+            case PYTHON, RABBIT, DEER:
                 if (rand < 0.8) {
-                    System.out.println("The Bear ate the Python");
-                }
-                break;
-            case RABBIT:
-                if (rand < 0.8) {
-                    System.out.println("The Bear ate the Rabbit");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case MOUSE:
                 if (rand < 0.9) {
-                    System.out.println("The Bear ate the Mouse");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case DUCK:
                 if (rand < 0.1) {
-                    System.out.println("The Bear ate the Duck");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case HORSE:
                 if (rand < 0.4) {
-                    System.out.println("The Bear ate the Horse");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
-            case DEER:
-                if (rand < 0.4) {
-                    System.out.println("The Bear ate the Deer");
-                }
-                break;
-            case GOAT:
+            case GOAT, SHEEP:
                 if (rand < 0.7) {
-                    System.out.println("The Bear ate the Goat");
-                }
-                break;
-            case SHEEP:
-                if (rand < 0.7) {
-                    System.out.println("The Bear ate the Sheep");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case PIG:
                 if (rand < 0.5) {
-                    System.out.println("The Bear ate the Pig");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case BUFFALO:
                 if (rand < 0.2) {
-                    System.out.println("The Bear ate the Buffalo");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             default:

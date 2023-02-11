@@ -17,22 +17,22 @@ public class Fox extends Animal {
         switch (food.getType()) {
             case CATERPILLAR:
                 if (rand < 0.4) {
-                    System.out.println("The Fox ate the Caterpillar");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case RABBIT:
                 if (rand < 0.7) {
-                    System.out.println("The Fox ate the Rabbit");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case MOUSE:
                 if (rand < 0.9) {
-                    System.out.println("The Fox ate the Mouse");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case DUCK:
                 if (rand < 0.6) {
-                    System.out.println("The Fox ate the Duck");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             default:

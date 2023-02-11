@@ -15,7 +15,8 @@ public enum AnimalType {
     PIG("PIG"),
     BUFFALO("BUFFALO"),
     DUCK("DUCK"),
-    CATERPILLAR("CATERPILLAR");
+    CATERPILLAR("CATERPILLAR"),
+    PLANT("PLANT");
 
     private final String type;
 

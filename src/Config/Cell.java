@@ -5,7 +5,6 @@ import Animals.Plants.Plant;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import static Config.AnimalType.*;
 
 public class Cell {

@@ -10,8 +10,5 @@ public class Horse extends Animal {
     int maximumNumberOfAnimal = 20;
     int speed = 4;
     int kiloOfFood = 60;
-    @Override
-    public void eat(Animal p, Animal food, List<Animal> animals) {
-        //ate the Plant
-    }
+
 }

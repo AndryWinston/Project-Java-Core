@@ -5,6 +5,8 @@ import Animals.Animal;
 import java.util.List;
 import java.util.Random;
 
+import static Config.AnimalType.PLANT;
+
 
 public class Buffalo extends Animal {
     int weight = 700;
@@ -12,8 +14,5 @@ public class Buffalo extends Animal {
     int speed = 3;
     int kiloOfFood = 100;
 
-    @Override
-    public void eat(Animal p, Animal food, List<Animal> animals) {
-        //ate the Plant
-    }
+
 }

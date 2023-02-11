@@ -5,6 +5,8 @@ import Animals.Animal;
 import java.util.List;
 import java.util.Random;
 
+import static Config.AnimalType.PLANT;
+
 
 public class Mouse extends Animal {
     double weight = 0.05;
@@ -18,10 +20,16 @@ public class Mouse extends Animal {
         switch (food.getType()) {
             case CATERPILLAR:
                 if (rand < 0.4) {
-                    System.out.println("The Mouse ate the Caterpillar");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
-//          case PLANT:
+          case PLANT:
+                if (p.getCell().getPlants().contains(PLANT)){
+                    this.getCell().getPlants().remove(1);
+                } else if (p.getCell().getPlants().isEmpty()) {
+                    //xnj nj
+                }
+                break;
             default:
         }
     }

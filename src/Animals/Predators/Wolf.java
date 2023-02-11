@@ -1,6 +1,7 @@
 package Animals.Predators;
 
 import Animals.Animal;
+
 import Config.Cell;
 
 import java.util.List;
@@ -17,49 +18,34 @@ public class Wolf extends Animal {
     public void eat(Animal p, Animal food, List<Animal> animals) {
         double rand = new Random().nextDouble();
         switch (food.getType()) {
-            case DEER:
+            case DEER, PIG:
                 if (rand < 0.15) {
-                    System.out.println("The Wolf ate the Deer");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
-            case HORSE:
+            case HORSE, BUFFALO:
                 if (rand < 0.1) {
-                    System.out.println("The Wolf ate the Horse");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
-            case RABBIT:
+            case RABBIT, GOAT:
                 if (rand < 0.6) {
-                    System.out.println("The Wolf ate the Rabbit");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case MOUSE:
                 if (rand < 0.8) {
-                    System.out.println("The Wolf ate the Mouse");
-                }
-                break;
-            case GOAT:
-                if (rand < 0.6) {
-                    System.out.println("The Wolf ate the Goat");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case SHEEP:
                 if (rand < 0.7) {
-                    System.out.println("The Wolf ate the Sheep");
-                }
-                break;
-            case PIG:
-                if (rand < 0.15) {
-                    System.out.println("The Wolf ate the Pig");
-                }
-                break;
-            case BUFFALO:
-                if (rand < 0.1) {
-                    System.out.println("The Wolf ate the Buffalo");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             case DUCK:
                 if (rand < 0.4) {
-                    System.out.println("The Wolf ate the Duck");
+                    this.getCell().getAnimals().remove(food);
                 }
                 break;
             default:
@@ -69,10 +55,13 @@ public class Wolf extends Animal {
     @Override
     public void moveVector(Animal a) {
         Cell cell = a.getCell();
-        Cell newCell = new Cell(); //TODO: Прописать логику расчета клетки назначения
-        newCell.setX(cell.getX()+1);
-        newCell.setY(cell.getX()+2);
-        a.setCell(cell);
-        System.out.println("Волк переместился с: " + cell + "на:" + newCell);
+        Cell newCell = new Cell();
+        List<Animal> animals = a.getCell().getAnimals();
+        if (animals.isEmpty()) {
+            newCell.setX(cell.getX() + 1);
+            newCell.setY(cell.getY() + 2);
+            a.setCell(cell);
+            System.out.println("Волк переместился с: " + cell + "на:" + newCell);
+        }
     }
 }

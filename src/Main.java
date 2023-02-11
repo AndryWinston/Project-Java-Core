@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to the game " + "\"Island\"!");
         System.out.println("Chose option:");
+        System.out.println("Привет");
         menu();
         Scanner scanner = new Scanner(System.in);
         int solution = scanner.nextInt();

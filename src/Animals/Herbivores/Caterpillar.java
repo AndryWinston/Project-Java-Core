@@ -11,8 +11,5 @@ public class Caterpillar extends Animal {
     int speed = 0;
     int kiloOfFood = 0;
 
-    @Override
-    public void eat(Animal p, Animal food, List<Animal> animals) {
-        //ate the Plant
-    }
+
 }
